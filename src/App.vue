@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <example-test />
+  <TodoList />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ExampleTest from './components/ExampleTest.vue';
+import TodoList from './components/TodoList/TodoList.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ExampleTest,
+    TodoList,
   }
 }
 </script>
